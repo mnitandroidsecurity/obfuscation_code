@@ -1,0 +1,18 @@
+
+    .line 13
+    sget-object v3, Ljava/lang/System;->out:Ljava/io/PrintStream;
+
+    const-string v4, "add twwo variable, value of can\'t be faulse"
+
+    invoke-virtual {v3, v4}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
+
+    .line 14
+    const/4 v0, 0x0
+
+    .line 15
+    .local v0, a:I
+    const/16 v1, 0x73
+
+    .line 22
+    .end local v0           #a:I
+    :cond_0
